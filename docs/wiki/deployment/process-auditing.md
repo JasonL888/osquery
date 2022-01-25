@@ -263,7 +263,7 @@ The FDA permission (or lack thereof) is inherited from `Terminal.app` when runni
 | -------- | -------- | -------- |
 | `Terminal.app`¹   | Give Full Disk Access to `Terminal.app` only  | Success     |
 | `Terminal.app`¹  | Give FDA only to osquery only, or do nothing  |  No events |
-| `launchctl`  | Give Full Disk Access to `/opt/osquery/lib/osquery.app/Contents/MacOS/osqueryd`² only | Success |
+| `launchctl`  | Give Full Disk Access to `/opt/osquery/lib/osquery.app`² only | Success |
 | `launchctl`  | Give FDA to `launchctl` only, or do nothing  | No events  |
 
 ¹ : if you use a third-party terminal emulator like `iTerm.app`, grant that the permission instead of `Terminal.app`.
